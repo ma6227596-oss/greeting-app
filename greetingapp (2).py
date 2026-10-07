@@ -8,8 +8,15 @@ Original file is located at
 """
 
 import streamlit as st
-st.title("اهلا بكم في موقعنا الاول باستخدام ستريم ليت")
-name=st.text_input("ما هو اسمك")
-if name:
-  st.write("مرحبا بك يا",name)
-  st.balloons()
+")st.title
+رادار المشاعر المطور
+gender = st.radio)"هل أنت", "ولد", "بنت"((
+status = st.selectbox )"بماذا تشعر الآن؟" ("سعيد", "حزين", "بردان((
+: ("! اكتشف شكلك") if st.button
+if status == "سعيد" :
+احتفال بالبالونات # ()st.balloons
+"إيا له من يوم رائع ) st.success
+elif status == "حزين" :
+"إلا تحزن، غداً سيكون أفضل")st.info
+elif status == "بردان":
+تأثير الثلج السحري # ()st.snow
